@@ -1,0 +1,27 @@
+Instrução para criar uma aplicação Nodejs com  TypeScritp
+
+npm init -y => para criar uma aplicação nodejs
+npm i -D typescript  => criar uma aplicação com typescript
+
+
+1 - Arquivos para serem baixados para Ajudar na sua aplicação:
+
+-> ESLINT => ajuda na exenção na sintaxe para deixar padronizado o codigo.
+  npm i eslint -D
+
+-> Se quiser um framework como express, fastify, ou ate Nest, para auxiliar nas rotas siga os seguintes comandos:
+npm i fastify => instalar o fastify
+npm i express => instlar o express
+npm i nestjs => instalar o nest
+
+Quando Usamos o node com TypeScript e nessario que instalamos o seguinte pacote:
+npm install -D @types/node => será instalado com uma depedencia de desenvolvimento por isso usamos "-D".
+
+Outro arquivos que vamos baixar é o pacote tsx. O que exatamente o tsx faz?
+  -> Ele converte altomaticamente nosso codigo TypeScript para JavaScript, ele facilita para que nao precisamos ficar
+rodando o comando npx tsc src/server.ts => para que ele transforma nosso arquivo em js, com esse pacote ele ja faz isso 
+atomatizada. O comando para baixar esse pacote seria: 
+npm install tsx -D  => iremos baixar ele como dependencia de Desenvolvimento. 
+
+Ai para rodar o servidor , rodamos com seguinte codigo:
+  npx tsx src/server.ts => ele ja roda o node sem precisarmos formatar o arquivo para js.
