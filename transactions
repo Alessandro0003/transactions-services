@@ -1,0 +1,13 @@
+## Cookies <--> Formas da gente manter contexto entre requisições
+
+## Definições de Testes
+
+--> Teste Unitario:
+    ->  Será realizado um teste para avaliar a unidade da sua aplicação
+
+--> Teste Integração: 
+    -> Será realizado um teste para verificar a comunicação entre duas ou mais 
+      unidades
+
+--> Teste E2e ou em Teste Ponta a Ponta:
+   -> Será realizado um teste que simulam um usuario operando na nossa aplicação.
