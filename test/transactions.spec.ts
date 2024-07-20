@@ -26,9 +26,7 @@ describe('Transactions routes', () =>{
                 amount: 5000,
                 type: 'credit'
             })
-            .expect(201)
-
-            
+            .expect(201)     
     })
 
     it('should be able to list all transaction',async  () => {

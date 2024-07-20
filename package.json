@@ -8,7 +8,7 @@
   },
   "scripts": {
     "start": "tsx watch src/server.ts",
-    "knex": "node --no-warnings tsx ./node_modules/knex/bin/cli.js",
+    "knex": "node --no-warnings --loader tsx ./node_modules/knex/bin/cli.js",
     "build": "tsup src --out-dir build",
     "test": "vitest"
   },
